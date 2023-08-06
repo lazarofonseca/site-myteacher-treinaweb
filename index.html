@@ -22,7 +22,8 @@
             <p class="teacher-price">R$ 100,00 por hora</p>
             <p class="teacher-description">Professor de inglêns, já morou nos Estados e Inglaterra</p>
             <form class="teacher-contract">
-                <input type="number" placeholder="Quantidade de horas" class="teacher-contract-hours">
+                <input name="price" type="hidden" value="100">
+                <input name="hours" type="number" placeholder="Quantidade de horas" class="teacher-contract-hours" min="1" required>
                 <button type="submit" class="teacher-contract-button">Calcular valor total</button>
             </form>
         </section>
@@ -33,11 +34,14 @@
             <p class="teacher-price">R$ 90,00 por hora</p>
             <p class="teacher-description">Professor de inglêns, já morou nos Estados e Inglaterra</p>
             <form class="teacher-contract">
-                <input type="number" placeholder="Quantidade de horas" class="teacher-contract-hours">
+                <input name="price" type="hidden" value="90">
+                <input name="hours" type="number" placeholder="Quantidade de horas" class="teacher-contract-hours" min="1" required>
                 <button type="submit" class="teacher-contract-button">Calcular valor total</button>
             </form>
         </section>
     </main>
+
+    <script src="js/script.js"></script>
     
 </body>
 </html>
