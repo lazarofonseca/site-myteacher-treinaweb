@@ -18,3 +18,64 @@ header {
 .logo {
     margin-bottom: 2rem;
 }
+
+main {
+    background-color: #F5F5F5;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+.teacher-container {
+    max-width: 450px;
+    padding: 10px;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+.teacher-img {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.teacher-name {
+    font-weight: 900;
+}
+
+.teacher-price {
+    font-weight: 700;
+    color: #F52273;
+}
+
+.teacher-description {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.teacher-contract {
+    display: flex;
+    justify-content: space-between;
+}
+
+.teacher-contract-hours {
+    width: 48%;
+    color: #565656;
+    background-color: #F5F5F5;
+    outline: none;
+    border: 1px solid #C4C4C4;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.teacher-contract-button {
+    width: 48%;
+    color: #FFF;
+    background-color: #F52273;
+    border: none;
+    font-weight: 900;
+}
+
+.teacher-contract-button:hover {
+    background-color: #CD1C60;
+    transition: background-color 0.5s;
+}
